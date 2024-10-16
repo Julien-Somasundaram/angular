@@ -1,0 +1,4 @@
+<section class="category_container" *ngFor="let content of categories; let i = index">
+  <button class="category" (click)="selectCategory(content.id)">
+    <b>Category {{ i + 1 }} :</b> {{ content?.category }}</button>
+</section>

@@ -1,0 +1,9 @@
+<section class="category-list">
+    <h2>Choisissez une catégorie</h2>
+
+    <input type="text" placeholder="Rechercher une catégorie" [(ngModel)]="searchTerm" (input)="filterCategories()" />
+    <button class="btn-reset" (click)="resetFilter()">Réinitialiser</button>
+    <section class="cat_list">
+        <app-cat></app-cat>
+    </section>
+  </section>

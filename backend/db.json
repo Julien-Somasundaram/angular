@@ -1,0 +1,827 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryLabel": "Angular"
+    },
+    {
+      "id": 2,
+      "categoryLabel": "Python"
+    },
+    {
+      "id": 3,
+      "categoryLabel": "PHP"
+    },
+    {
+      "id": 4,
+      "categoryLabel": "JavaScript"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "questionLabel": "What is a component in Angular?",
+      "categoryId": "1"
+    },
+    {
+      "id": 2,
+      "questionLabel": "Explain the purpose of the NgModule in Angular.",
+      "categoryId": "1"
+    },
+    {
+      "id": 3,
+      "questionLabel": "How do you create a new Angular application?",
+      "categoryId": "1"
+    },
+    {
+      "id": 4,
+      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?",
+      "categoryId": "1"
+    },
+    {
+      "id": 5,
+      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates.",
+      "categoryId": "1"
+    },
+    {
+      "id": 6,
+      "questionLabel": "What is event binding in Angular, and how is it implemented?",
+      "categoryId": "1"
+    },
+    {
+      "id": 7,
+      "questionLabel": "What is Angular CLI, and how do you use it to generate components?",
+      "categoryId": "1"
+    },
+    {
+      "id": 8,
+      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?",
+      "categoryId": "1"
+    },
+    {
+      "id": 9,
+      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application.",
+      "categoryId": "1"
+    },
+    {
+      "id": 10,
+      "questionLabel": "What is dependency injection in Angular, and why is it important?",
+      "categoryId": "1"
+    },
+    {
+      "id": 11,
+      "questionLabel": "How do you communicate between parent and child components in Angular?",
+      "categoryId": "1"
+    },
+    {
+      "id": 12,
+      "questionLabel": "What is a service in Angular, and when should you use it?",
+      "categoryId": "1"
+    },
+    {
+      "id": 13,
+      "questionLabel": "What is the purpose of the ngFor directive in Angular?",
+      "categoryId": "1"
+    },
+    {
+      "id": 14,
+      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application.",
+      "categoryId": "1"
+    },
+    {
+      "id": 15,
+      "questionLabel": "What is Angular CLI's ng serve command used for?",
+      "categoryId": "1"
+    },
+    {
+      "id": 16,
+      "questionLabel": "What is Angular's two-way data binding, and how does it work?",
+      "categoryId": "1"
+    },
+    {
+      "id": 17,
+      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?",
+      "categoryId": "1"
+    },
+    {
+      "id": 18,
+      "questionLabel": "How can you handle HTTP requests in Angular?",
+      "categoryId": "1"
+    },
+    {
+      "id": 19,
+      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?",
+      "categoryId": "1"
+    },
+    {
+      "id": 20,
+      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial.",
+      "categoryId": "1"
+    },
+    {
+      "id": 21,
+      "questionLabel": "What is a list in Python, and how do you create one?",
+      "categoryId": "2"
+    },
+    {
+      "id": 22,
+      "questionLabel": "How do you define a function in Python?",
+      "categoryId": "2"
+    },
+    {
+      "id": 23,
+      "questionLabel": "What is the difference between a tuple and a list in Python?",
+      "categoryId": "2"
+    },
+    {
+      "id": 24,
+      "questionLabel": "How can you handle exceptions in Python?",
+      "categoryId": "2"
+    },
+    {
+      "id": 25,
+      "questionLabel": "What are decorators in Python?",
+      "categoryId": "2"
+    },
+    {
+      "id": 26,
+      "questionLabel": "What is a PHP session, and how is it used?",
+      "categoryId": "3"
+    },
+    {
+      "id": 27,
+      "questionLabel": "How do you connect PHP to a MySQL database?",
+      "categoryId": "3"
+    },
+    {
+      "id": 28,
+      "questionLabel": "What is the difference between 'include' and 'require' in PHP?",
+      "categoryId": "3"
+    },
+    {
+      "id": 29,
+      "questionLabel": "What is JavaScript's event loop?",
+      "categoryId": "4"
+    },
+    {
+      "id": 30,
+      "questionLabel": "What is the difference between 'let', 'var', and 'const' in JavaScript?",
+      "categoryId": "4"
+    },
+    {
+      "id": 31,
+      "questionLabel": "How does hoisting work in JavaScript?",
+      "categoryId": "4"
+    }
+  ],
+  "answers": [
+    {
+      "questionId": 1,
+      "answerLabel": "A reusable building block for the user interface",
+      "isCorrect": true
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A style in Angular",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A service for handling HTTP requests",
+      "isCorrect": false
+    },
+    {
+      "questionId": 1,
+      "answerLabel": "A routing configuration",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is a component in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is used for data binding in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "NgModule is a directive in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using pure JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 3,
+      "answerLabel": "You can create a new Angular application using Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is used for creating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is a routing feature.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 4,
+      "answerLabel": "Data binding in Angular is only available for services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 5,
+      "answerLabel": "[property] (property binding) is used for creating services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding is a way to listen for and respond to user events in Angular.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding is used for data binding in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding is a directive in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Event binding is used to create components in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI is a command-line interface for Angular. You can use it to generate components with 'ng generate component component-name'.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI is a library for Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI is used for data binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 7,
+      "answerLabel": "Angular CLI is a directive in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive is a class that can modify the behavior or appearance of elements in Angular. Examples include *ngIf and *ngFor.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive is a service in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive is a type of component in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "A directive is a module in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is used for navigating between different views in an Angular application. You configure routes by defining them in the RouterModule.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is used for data binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is a component in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "The Angular router is a service in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection is a design pattern in Angular where a class receives its dependencies from an external source rather than creating them itself. It promotes reusability and testability.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection is a method for creating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection is a routing feature.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Dependency injection is a directive in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "You can communicate between parent and child components using @Input and @Output decorators in Angular.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "You can communicate using services only.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "You can communicate using directives.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "You can communicate using global variables.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service in Angular is a class that provides functionality and can be injected into components. You should use it for shared logic.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service is a type of component in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service is a module in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "A service is a directive in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive is used to iterate over a collection and render a template for each item in Angular.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive is used for creating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive is used for routing.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 13,
+      "answerLabel": "The ngFor directive is used for services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules in Angular help organize an application by grouping related components, directives, and services together. They also allow for lazy loading.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules are only used for styling in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules are not necessary in Angular applications.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 14,
+      "answerLabel": "Modules are components that are loaded at runtime.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "The ng serve command is used to build and serve an Angular application locally, enabling live reloading during development.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "The ng serve command is used for production builds.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "The ng serve command is used for generating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "The ng serve command is used for routing.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Two-way data binding in Angular allows for automatic synchronization of data between the model and the view, typically implemented using [(ngModel)].",
+      "isCorrect": true
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Two-way data binding is only available in services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Two-way data binding is a method for creating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 16,
+      "answerLabel": "Two-way data binding is used for routing.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "The trackBy function is used with ngFor to improve performance by tracking changes to items in a list using a unique identifier.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "The trackBy function is a type of directive.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "The trackBy function is used for data binding.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "The trackBy function is used for routing.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "You can handle HTTP requests in Angular using the HttpClient module.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "You can handle HTTP requests using services only.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "You can handle HTTP requests using global variables.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "You can handle HTTP requests using directives.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Angular pipes are used to transform data for display in templates. Examples include DatePipe, CurrencyPipe, and PercentPipe.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Pipes are only used for styling in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Pipes are services in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Pipes are components in Angular.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading in Angular is a technique to load modules only when they are needed, improving the application's performance.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading is only used for services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading is a method for creating components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Lazy loading is used for styling.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A list in Python is an ordered collection of items, which can be of different types. You can create one using square brackets, e.g., my_list = [1, 2, 3].",
+      "isCorrect": true
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A list is a type of function in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A list is a special type of variable in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 21,
+      "answerLabel": "A list is a type of loop in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "You define a function in Python using the def keyword, followed by the function name and parentheses, e.g., def my_function().",
+      "isCorrect": true
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "You define a function using the function keyword.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "You define a function using the lambda keyword.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 22,
+      "answerLabel": "You define a function using the define keyword.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "A tuple is an ordered collection similar to a list, but it is immutable (cannot be changed). You create a tuple using parentheses, e.g., my_tuple = (1, 2, 3).",
+      "isCorrect": true
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "A tuple is a type of function in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "A tuple is a special type of variable in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 23,
+      "answerLabel": "A tuple is a type of loop in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "You can handle exceptions in Python using try and except blocks. This allows you to catch and respond to errors gracefully.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "You can handle exceptions using if statements.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "You can handle exceptions using loops.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "You can handle exceptions using global variables.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Decorators in Python are a way to modify the behavior of functions or methods. They are defined using the '@' symbol followed by the decorator name.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Decorators are only used for classes in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Decorators are a type of loop in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Decorators are a type of variable in Python.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "A PHP session is a way to store information (in variables) to be used across multiple pages. It allows you to maintain state.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "A PHP session is a type of function in PHP.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "A PHP session is a type of variable in PHP.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 26,
+      "answerLabel": "A PHP session is a type of loop in PHP.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "You connect PHP to a MySQL database using the mysqli_connect function or PDO.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "You connect using the connect function only.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "You connect using the include function.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 27,
+      "answerLabel": "You connect using the require function.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "'include' allows you to include files in PHP, while 'require' throws a fatal error if the file is not found. 'include' issues a warning instead.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "'include' and 'require' are the same in PHP.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "'include' is used for sessions, while 'require' is used for database connections.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "'include' is a type of variable in PHP.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "The event loop is a mechanism that allows JavaScript to perform non-blocking I/O operations by using a single-threaded model and asynchronous callbacks.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "The event loop is a type of function in JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "The event loop is a special type of variable in JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "The event loop is a type of loop in JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "'let' is block-scoped, 'var' is function-scoped, and 'const' is also block-scoped but cannot be reassigned.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "'let' and 'var' are the same in JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "'const' can be reassigned.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "'let' is used for defining functions.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope during compile time.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Hoisting is a type of variable in JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Hoisting is a special type of function in JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Hoisting is a type of loop in JavaScript.",
+      "isCorrect": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user"
+    },
+    {
+      "username": "test",
+      "password": "test",
+      "id": "3"
+    },
+    {
+      "id": "7343",
+      "username": "julien",
+      "password": "julien"
+    },
+    {
+      "id": "6ebb",
+      "username": "chuaibe",
+      "password": "f",
+      "confirmPassword": ""
+    }
+  ]
+}
